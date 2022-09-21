@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface BvnRepository extends MongoRepository<Bvn, Long> {
+
     Bvn findBvnByBvn(String bvn);
 }
